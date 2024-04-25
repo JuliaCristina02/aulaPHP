@@ -1,0 +1,23 @@
+<?php
+//declaração de variaveis do tipo inteiro
+$inteiro= array(1,2,3,);
+$nome= "julia";
+$salario= 10200;
+  //declaração de uma variavel do tipo inteiro
+ $inteiro = "2354";
+//impressao com interpolação
+echo "O nome é: {$nome} e o salario é: {$salario}";
+//impressao com contenação
+echo "\nnome: ".$nome. "e o salario".$salario."\n" ;
+//impressão com var_dump()
+var_dump($nome);
+echo '<pre>';
+print_r($inteiro);  
+//variavel n1+n2
+$n1=20;
+$n2=30;
+$resultado=$n1+$n2;
+echo "o resultado é:($resultado\n)";
+var_dump($n1+$n2);
+
+?>
